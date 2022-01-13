@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+//A PHP script can be placed anywhere in the document.
+//A PHP script starts with <?php 
+//The default file extension for PHP files is ".php"
+echo "Hello World!<br>";// built-in PHP function "echo" to output the text "Hello World!" on a web page
+Output-
+Hello World!
+
+//In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+ECHO "Hello World!<br>";
+echo "Hello World!<br>";
+EcHo "Hello World!<br>";
+Output-
+Hello World!
+Hello World!
+Hello World!
+
+//All variable names are case-sensitive!
+$color = "red";
+echo "My car is " . $color . "<br>"; 
+Output-
+My car is red
+
+echo "My house is " . $COLOR . "<br>";
+/*Warning: Undefined variable $COLOR in C:\xampp\htdocs\my_syntax.php on line 16
+My house is*/
+
+echo "My boat is " . $coLOR . "<br>";
+/*Warning: Undefined variable $coLOR in C:\xampp\htdocs\my_syntax.php on line 17
+My boat is*/
+?>  
+
+
+
+</body>
+</html>
