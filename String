@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+
+//The PHP strlen() function returns the length of a string
+echo strlen("Hello world!");
+echo "<br>";
+echo strlen("Hello world 0!");
+echo "<br>";
+echo strlen("!");
+echo "<br>";
+
+//The PHP str_word_count() function counts the number of words in a string.
+echo str_word_count("Hello world j0");
+echo "<br>";
+echo str_word_count("Hello world 0");
+echo "<br>";
+echo str_word_count("Hello world jk");
+echo "<br>";
+
+//The PHP strrev() function reverses a string.
+echo strrev("Hello world!");
+echo "<br>";
+echo strrev("Hello world 0");
+echo "<br>";
+
+//The PHP strpos() function searches for a specific text within a string. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE
+echo strpos("Hello world!", "world");
+echo "<br>";
+echo strpos("world Hello world world","world");
+echo "<br>";
+echo strpos("Hello world!", "world");
+echo "<br>";
+echo strpos("H31ello 31 world!", "31");
+echo "<br>";
+echo strpos("H3e1llo 31 world!", "31");
+//The first character position in a string is 0 (not 1)
+echo "<br>";
+
+// The PHP str_replace() function replaces some characters with some other characters in a string.
+echo str_replace("world", "Dolly", "Hello world!");
+echo "<br>";
+echo str_replace("09", "90", "Hello world 09!");
+echo "<br>";
+echo str_replace("H", "D", "Hello world!");
+echo "<br>";
+echo str_replace("orl", "pran", "Hello world!");
+echo "<br>";
+echo str_replace("l", "p", "Hello world!");
+echo "<br>";
+echo str_replace("!", "p", "Hello world!");
+?>  
+</body>
+</html>
+
