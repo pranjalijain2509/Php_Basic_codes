@@ -23,11 +23,9 @@ $color = "red";
 echo "My car is " . $color . "<br>"; 
 Output-
 My car is red
-
 echo "My house is " . $COLOR . "<br>";
 /*Warning: Undefined variable $COLOR in C:\xampp\htdocs\my_syntax.php on line 16
 My house is*/
-
 echo "My boat is " . $coLOR . "<br>";
 /*Warning: Undefined variable $coLOR in C:\xampp\htdocs\my_syntax.php on line 17
 My boat is*/
