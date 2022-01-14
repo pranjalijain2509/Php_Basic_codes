@@ -27,7 +27,12 @@ echo "<br>";
 
 $txt = "W3Schools.com";
 echo "I love " . $txt1 . "!";
-Output-I love W3Schools.com!
+echo "<br>";
+echo "I love " , $txt1 , "!";
+
+Output-
+I love W3Schools.com!
+I love W3Schools.com!
 echo "<br>";
 
 $x = 5;
