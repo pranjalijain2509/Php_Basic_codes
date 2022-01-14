@@ -29,7 +29,7 @@ $txt = "W3Schools.com";
 echo "I love " . $txt1 . "!";
 echo "<br>";
 echo "I love " , $txt1 , "!";
-
+//print("I love " , $txt1 , "!"); this will not work because print take only 1 argumnet
 Output-
 I love W3Schools.com!
 I love W3Schools.com!
