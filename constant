@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+// A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+// A valid constant name starts with a letter or underscore (no $ sign before the constant name).
+// Note: Unlike variables, constants are automatically global across the entire script.
+
+// Create a PHP Constant
+// To create a constant, use the define() function.
+// Syntax
+// define(name, value, case-insensitive)
+// Parameters:
+    // name: Specifies the name of the constant
+    // value: Specifies the value of the constant
+    // case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false
+
+// case-sensitive constant name
+define("GREETING", "Welcome to W3Schools.com!");
+echo GREETING;
+echo "<br>";
+// define("GREE", "Welcome to W3Schools.com!");
+// echo GREe;  Uncaught Error: Undefined constant "GREe"
+
+// define("GREETING", "Welcome to W3Schools.com!","true");
+// echo GREETINg; ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported 
+
+// you can create an Array constant using the define() function.
+define("cars", [
+    "Alfa Romeo",
+    "BMW",
+    "Toyota"
+  ]);
+  echo cars[0];
+  echo "<br>";
+  echo cars[2];
+  echo "<br>";
+//   echo cars[-1]; Undefined array key -1 
+
+// Constants are Global
+// Constants are automatically global and can be used across the entire script.
+  
+function myest() {
+    define("GREE", "Welcome to W3.com!");
+      echo GREE;
+    }
+     
+    myest();
+    
+    echo "<br>";
+    define("Pranjali", "Welcome to W3333.com!");
+    function mytest() {
+        // define("Pranjali", "Welcome to W3333.com!");
+
+      echo Pranjali;
+
+    //   if we have constant outide and inside function both inside function would give error Constant Pranjali already defined
+    }
+    mytest();
+    
+    echo "<br>";
+    
+    define("GREETINu", "Welcome to W5553.com!");
+    function myestt() {
+    
+      echo GREETINu;
+    }
+    myestt();
+
+?>  
+</body>
+</html>
