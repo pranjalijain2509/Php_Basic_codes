@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+// PHP pi() Function
+    // The pi() function returns the value of PI:
+    echo(pi());
+    echo "<br>";
+
+// PHP min() and max() Functions
+    // The min() and max() functions can be used to find the lowest or highest value in a list of arguments:
+    echo(min(0, 150, 30, 20, -8, -200) . "<br>");
+    echo(max(0, 150, 30, 20, -8, -200));
+    echo "<br>";
+
+// PHP abs() Function
+    // The abs() function returns the absolute (positive) value of a number:
+    echo(abs(-6.7));
+    echo "<br>";
+    echo(abs(-4.0));
+    echo "<br>";
+    echo(abs(-45.6));
+    echo "<br>";
+    echo(abs(4.8));
+    echo "<br>";
+
+// PHP sqrt() Function
+    // The sqrt() function returns the square root of a number:
+    echo(sqrt(64) . "<br>");
+    echo(sqrt(0) . "<br>");
+    echo(sqrt(1) . "<br>");
+    echo(sqrt(9));
+    echo "<br>";
+    echo(sqrt(256));
+    echo "<br>";
+
+// PHP round() Function
+    // The round() function rounds a floating-point number to its nearest integer
+    echo(round(0.60) . "<br>");
+    echo(round(0.50) . "<br>");
+    echo(round(0.49) . "<br>");
+    echo(round(-4.40) . "<br>");
+    echo(round(-4.60));
+    echo "<br>";
+    echo(round(1.9));
+    echo "<br>";
+    echo(round(1.3));
+    echo "<br>";
+    echo(round(1.5));
+    echo "<br>";
+    echo(round(1.59));
+    echo "<br>";
+    echo(round(1.0));
+
+// Random Numbers
+    // The rand() function generates a random number:
+    echo(rand());
+    echo "<br>";
+    echo(rand());
+    echo "<br>";
+
+    // To get more control over the random number, you can add the optional min and max parameters to specify the lowest integer and the highest integer to be returned.
+    // For example, if you want a random integer between 10 and 100 (inclusive), use rand(10, 100)
+    echo(rand(10, 100));
+    echo "<br>";
+    echo(rand(100, 200));
+?>  
+</body>
+</html>
+
+Output-
+3.1415926535898
+-200
+150
+6.7
+4
+45.6
+4.8
+8
+0
+1
+3
+16
+1
+1
+0
+-4
+-5
+2
+1
+2
+2
+11220428818
+144737762
+38
+161
