@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// PHP Operators
+// Operators are used to perform operations on variables and values
+// Arithmetic operators
+// The PHP arithmetic operators are used with numeric values to perform common arithmetical operations, such as addition, subtraction, multiplication etc
+
+$x = 10;  
+$y = 6;
+echo $x + $y;
+echo "<br>";
+echo ($x + $y);
+echo "<br>";
+echo "$x + $y";
+echo "<br>";
+echo '$x + $y';
+echo "<br>";
+echo "Sum"," ",($x + $y);
+echo "<br>";
+
+Output-
+16
+16
+10 + 6
+$x + $y
+Sum 16
+
+echo $x - $y;
+echo "<br>";
+echo ($x - $y);
+echo "<br>";
+echo "$x - $y";
+echo "<br>";
+echo '$x - $y';
+echo "<br>";
+echo "Substraction"," ",($x - $y);
+echo "<br>";
+
+Output-
+4
+4
+10 - 6
+$x - $y
+Substraction 4
+
+echo $x * $y;
+echo "<br>";
+echo ($x * $y);
+echo "<br>";
+echo "$x * $y";
+echo "<br>";
+echo '$x * $y';
+echo "<br>";
+echo "Multiplication"," ",($x * $y);
+echo "<br>";
+
+Output-
+60
+60
+10 * 6
+$x * $y
+Multiplication 60
+
+echo $x / $y;
+echo "<br>";
+echo ($x / $y);
+echo "<br>";
+echo "$x / $y";
+echo "<br>";
+echo '$x / $y';
+echo "<br>";
+echo "Divison"," ",($x / $y);
+echo "<br>";
+
+Output-
+1.6666666666667
+1.6666666666667
+10 / 6
+$x / $y
+Divison 1.6666666666667
+
+echo $x % $y;
+echo "<br>";
+echo ($x % $y);
+echo "<br>";
+echo "$x % $y";
+echo "<br>";
+echo '$x % $y';
+echo "<br>";
+echo "Modulus"," ",($x % $y);
+echo "<br>";
+
+Output-
+4
+4
+10 % 6
+$x % $y
+Modulus 4
+
+
+echo $x ** $y;
+echo "<br>";
+echo ($x ** $y);
+echo "<br>";
+echo "$x ** $y";
+echo "<br>";
+echo '$x ** $y';
+echo "<br>";
+echo "Exponential"," ",($x ** $y);
+
+Output-
+1000000
+1000000
+10 ** 6
+$x ** $y
+Exponential 1000000
+
+?>  
+</body>
+</html>
