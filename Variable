@@ -56,7 +56,6 @@ Study PHP at W3
 Study PHP at $txt2
 hey54
 hey9
-
 //PHP automatically associates a data type to the variable, depending on its value. Since the data types are not set in a strict sense, you can do things like adding a string to an integer without causing an error.
 //In PHP 7, type declarations were added. This gives an option to specify the data type expected when declaring a function, and by enabling the strict requirement, it will throw a "Fatal Error" on a type mismatch.
 ?>  
